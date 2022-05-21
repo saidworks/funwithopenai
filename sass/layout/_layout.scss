@@ -1,0 +1,44 @@
+
+.container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 40vh 50vh;
+        margin: 2% 5%;
+        .title{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+        .request{
+            grid-row: 2/3;
+            grid-column: 1/2;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            form {
+                margin: 1% 0%;
+            }
+        }
+        .response{
+            grid-row: 3/4;
+            grid-column: 1/2;
+            h2.responses{
+               margin: 2% 0%;
+            }
+
+            .response{
+                background-color: beige;
+                margin: 1% 0%;
+                p{
+                    margin: 2px;
+                }
+                .response-prompt{
+               
+                }
+                .response-response{
+               
+                }
+            }
+        }
+       }
+     

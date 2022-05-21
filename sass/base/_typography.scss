@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Send+Flowers&display=swap');
+
+html {
+    font-weight: 300;
+    font-size: $normal-size;
+    background-color: $primary-color;
+    color: $secondary-color;
+    body{
+        font-family: $montserrat;
+        h1 {
+            font-size: $title-size;
+             }
+    }
+    
+.container{
+
+    .title{
+     
+    }
+    .request{
+
+        form {
+     
+        }
+    }
+    .response{
+      
+        h2.responses{
+            font-size: 3rem;
+        }
+
+        .response{
+            .response-prompt{
+               font-weight: bold;
+            }
+            .response-response{
+                font-weight: bold;
+            }
+        }
+    }
+   }
+ 
+
+}
+

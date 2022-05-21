@@ -1,0 +1,19 @@
+{
+  "name": "inventory_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "compiler:sass": "sass --watch sass/main/main.scss style/main.css",
+    "start": "concurrently \"npm run compiler:sass\" \"live-server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "got": "^11.8.0",
+    "live-server": "^1.2.1",
+    "sass": "^1.50.0"
+  }
+}

@@ -4,8 +4,7 @@
 html {
     font-weight: 300;
     font-size: $normal-size;
-    background-color: $primary-color;
-    color: $secondary-color;
+    
     body{
         font-family: $montserrat;
         h1 {
@@ -24,18 +23,29 @@ html {
      
         }
     }
+  
     .response{
-      
+        grid-row: 3/4;
+        grid-column: 1/2;
+        width:80vw;
         h2.responses{
-            font-size: 3rem;
+           margin: 2% 0%;
         }
 
-        .response{
-            .response-prompt{
-               font-weight: bold;
+        .example-response{
+            background-color: $primary-color;
+            margin: 1% 0%;
+            p{
+            margin: 10px;
+            padding: 1vmin;
+            line-height: 2rem;
+            letter-spacing: 1px;
             }
-            .response-response{
-                font-weight: bold;
+            .example-response-prompt{
+                font-weight: 700;
+            }
+            .example-response-response{
+                font-weight: 700;
             }
         }
     }
